@@ -61,9 +61,45 @@ export default function App() {
             </div>
           </div>
         </section>
-        <section>Section 2</section>
+        {/* <div className={styles.preFooter}>
+          <section>
+            <h2 className={styles.oversizedText}>Trusted by top teams</h2>
+          </section>
+        </div> */}
       </main>
-      <footer>Footer</footer>
+      <footer>
+        <div className={styles.footerGrid}>
+          <a>
+            <img
+              href="/#"
+              src="https://assets.website-files.com/630955d355f57f38b7c3b1f5/630a379f741fe7cbee2cd282_logo-footer-icon.svg"
+              alt="Company Logo"
+            />
+          </a>
+          <div className={styles.footerGridOne}>
+            <h3>Legal</h3>
+            <uL>
+              <li>Privacy Policy</li>
+              <li>Trust Page</li>
+            </uL>
+          </div>
+          <div className={styles.footerGridTwo}>
+            <h3>Contact</h3>
+            <uL>
+              <li>Email Us</li>
+              <li>Support Us</li>
+            </uL>
+          </div>
+          <div className={styles.footerGridThree}>
+            <h3>About </h3>
+            <uL>
+              <li>Company</li>
+              <li>Twitter</li>
+              <li>Instagram</li>
+            </uL>
+          </div>
+        </div>
+      </footer>
     </>
   );
 }
